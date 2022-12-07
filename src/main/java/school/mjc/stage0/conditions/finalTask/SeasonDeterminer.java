@@ -5,7 +5,7 @@ public class SeasonDeterminer {
 if ( monthNumber <= 0 || monthNumber >13){
 	                    System.out.println("Wrong month number");}
 	    if (monthNumber >0 ){
-	        if (monthNumber!=0 && (month <=2 || monthNumber==12)  ){
+	        if (monthNumber!=0 && (monthNumber <=2 || monthNumber==12)  ){
 	        System.out.println("Winter");}
 	        if (monthNumber>=3 && monthNumber <=5){
 	            System.out.println("Spring");}
